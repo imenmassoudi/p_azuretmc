@@ -52,7 +52,7 @@ steps:
     displayName: 'Maven Install P2 and generate Poms'
     inputs:
       mavenPomFile: '$(pom_xml.secureFilePath)'
-      goals: 'org.talend.ci:builder-maven-plugin:8.0.4:generateAllPoms'
+      goals: 'org.talend.ci:builder-maven-plugin:8.0.1:generateAllPoms'
       options: '--batch-mode --settings $(settings_xml.secureFilePath) $(talend_ci_config)'
       publishJUnitResults: false
 
