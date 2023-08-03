@@ -3,7 +3,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-- group: talend cloud
+- group: Talend Variables
 - name: project_name
   value: 'P_AZURETMC'
 
